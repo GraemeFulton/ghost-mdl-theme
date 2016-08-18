@@ -4,7 +4,7 @@ Another port of the Ghost MDL themes from [Google's getmdl site](https://getmdl.
 
 * It started off just for my portfolio, but other people have wanted to use it
 * It is a little hacky since I made it pretty quickly, but now I'm removing the hard coded stuff so anyone can use it as a theme.
-
+* Still not safe to use, I'll update this readme when it is
 
 ## Copyright & License
 
