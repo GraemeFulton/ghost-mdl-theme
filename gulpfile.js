@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
+var watch = require('gulp-watch');
 
 
 gulp.task('default', ['styles'],function() {

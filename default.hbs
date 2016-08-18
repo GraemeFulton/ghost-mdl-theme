@@ -29,9 +29,9 @@
 
 </head>
 <body class="{{body_class}}">
-  <div class="main-content-wrapper">
   {{navigation}}
 
+  <div class="main-content-wrapper">
      <main class="mdl-layout__content">
 
         <div class="site-wrapper">
@@ -46,5 +46,26 @@
 
   </div>
   <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+  <script>
+  // First we detect the click event
+    var btn = document.getElementsByClassName('mdl-layout__drawer-button')
+    var nav = document.getElementsByClassName('materialnav');
+    var sidenav = document.getElementsByClassName('mdl-layout__drawer');
+    var obfuscator = document.getElementsByClassName('mdl-layout__obfuscator');
+
+    btn[0].addEventListener('click', function () {
+      nav[0].classList.add('active');
+      sidenav[0].classList.add('is-visible');
+      obfuscator[0].classList.add('is-visible');
+    });
+
+    obfuscator[0].addEventListener('click', function () {
+      sidenav[0].classList.remove('is-visible');
+      obfuscator[0].classList.remove('is-visible');
+      setTimeout(function(){nav[0].classList.remove('active');},95)
+    });
+
+
+  </script>
 </body>
 </html>
