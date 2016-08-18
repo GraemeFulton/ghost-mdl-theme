@@ -397,6 +397,9 @@ nav.materialnav.active{
   .mdl-layout__content{
     background: transparent;
   }
+  .mdl-navigation.nav-desktop{
+    display:none;
+  }
 }
 .main-header {
     display: table;
@@ -1533,7 +1536,7 @@ body:not(.post-template) .post-title {
 
 .padding-top-30{
   margin-top: 0px;
-  background: #fff;
+  background: #fbfbfb;
   padding-top: 30px;
 }
 /* On page2+ make all the headers smaller */
