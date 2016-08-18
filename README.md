@@ -1,8 +1,10 @@
-# Ghost MDL
+# Ghost MDL Theme (Material Design Lite)
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+Another port of the Ghost MDL themes from [Google's getmdl site](https://getmdl.io/templates/index.html)
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+* It started off just for my portfolio, but other people have wanted to use it
+* It is a little hacky since I made it pretty quickly, but now I'm removing the hard coded stuff so anyone can use it as a theme.
+
 
 ## Copyright & License
 
